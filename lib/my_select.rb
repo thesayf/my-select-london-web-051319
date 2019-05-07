@@ -4,7 +4,7 @@ def my_select(collection)
  	return nil
  else
 		counter = 0
-		tmp_array = []
+		new_array = []
 		while counter < collection.count
 			if collection[counter] % 2 == 0
 				yield collection[counter]
