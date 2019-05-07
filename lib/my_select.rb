@@ -8,7 +8,7 @@ def my_select(collection)
 		while counter < collection.count
 			if collection[counter] % 2 == 0
 				yield collection[counter]
-				tmp_array << collection[counter]
+				new_array << collection[counter]
 				counter += 1
 			else
 				puts collection[counter]
